@@ -4,6 +4,7 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -37,13 +38,3 @@ build/
 ### Mac OS ###
 .DS_Store
 
-# Ignore .idea folder
-.idea/
-
-# Ignore all image files
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.svg
