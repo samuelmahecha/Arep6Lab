@@ -58,7 +58,7 @@ mvn -version
 mysql --version
 ```
 
-* ![img.png](img.png)
+* ![img.png](Images/img.png)
 
 * Git: You need Git to clone the repository. Download it from the Git website and install it.
 
@@ -133,7 +133,7 @@ To run the automated tests you'll have to type in the console
 mvn test
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](Images/img_1.png)
 
 ### Break down into end-to-end tests
 
@@ -200,10 +200,10 @@ curl "https://www.duckdns.org/update?domains=<your-subdomain>&token=<your-token>
 */5 * * * * curl "https://www.duckdns.org/update?domains=<your-subdomain>&token=<your-token>"
 ```
 * This will update the IP address every 5 minutes.
-![img_2.png](img_2.png)
+![img_2.png](Images/img_2.png)
 
 **Step 2: Configure Apache EC2 Instance**
-![img_3.png](img_3.png)
+![img_3.png](Images/img_3.png)
 1. Install Apache on the EC2 instance:
  ```
 sudo apt update
@@ -286,7 +286,7 @@ sudo apt install mysql-server
 * Open port 3306 in the security group of your backend EC2 instance to allow access from your Spring Boot application.
 
 **Step 4: Setup Spring Boot Application on Backend EC2 Instance**
-![img_4.png](img_4.png)
+![img_4.png](Images/img_4.png)
 1.  Install Java
 * On the backend EC2 instance, ensure Java is installed:
     ```
@@ -390,7 +390,7 @@ https://github.com/user-attachments/assets/2a27888b-e0c2-4256-bc77-d6f3a676789b
 
 ### Diagram Class
 
-![img_5.png](img_5.png)
+![img_5.png](Images/img_5.png)
 
 ## Class Diagram Breakdown
 
@@ -512,7 +512,7 @@ The diagram focuses on two main areas:
 
 ## Architecture 
 
-![img_6.png](img_6.png)
+![img_6.png](Images/img_6.png)
 
 ## Architectural Components and Flow
 
