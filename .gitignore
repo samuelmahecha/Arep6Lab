@@ -36,3 +36,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore .idea folder
+.idea/
+
+# Ignore all image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
